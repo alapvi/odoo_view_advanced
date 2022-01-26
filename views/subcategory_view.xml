@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+
+        
+        <!-- actions -->
+        <record model="ir.actions.act_window" id="odoo_view_advanced_subcategory_action">
+            <field name="name">Category</field>
+            <field name="res_model">odoo_view_advanced.subcategory_model</field>
+            <field name="view_mode">tree,form</field>
+        </record>
+
+
+        <menuitem name="Category" id="odoo_view_advanced.menu_subcategory" parent="odoo_view_advanced.menu_1"
+                  action="odoo_view_advanced_subcategory_action"/>
+
+    </data>
+</odoo>

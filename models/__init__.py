@@ -1,3 +1,3 @@
 # -*- coding: utf-8 -*-
 
-from . import product_model
+from . import maintenance_model, product_model, category_model, subcategory_model
